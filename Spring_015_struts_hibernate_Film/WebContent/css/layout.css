@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#header, #main, #footer, #menu {
+	width:959px;
+}
+#container {
+	width:959px;
+	margin:0px auto;
+}
+#header {
+	height:100px;
+	position:relative;
+}
+#header_top {
+	width:957px;/*留两个像素给边框*/
+	height:30px;
+	position:relative;
+	line-height:22px;
+}
+
+#menu {/*菜单*/
+	width:956;
+	height:70px;
+	background-color:#F8F8F8;
+	border:1px solid #CCC;
+	border-top:5px solid #F65B06;
+}
+
+#main{margin-top:-45px;}
+#main_up {width:959px; }
+
+#main_down {width:959px;}
+
+
+#footer {/*底部*/
+	background-color:#F9F9F9;	/*temp*/
+	width:959px;
+}
+
+
+.blank {/*间隔块*/
+	float:left;
+	clear:both;
+	width:959px;
+	height:5px;
+	overflow:hidden;/*多余部分隐藏*/
+}

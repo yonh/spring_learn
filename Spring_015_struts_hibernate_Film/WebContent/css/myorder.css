@@ -1,0 +1,43 @@
+@charset "utf-8";
+body { background:#fff; color:#333; }
+body,p,ul,ol,li,dl,dt,dd,input,h1,h2,h3,h4,form,hr { padding:0; margin:0; }
+img { border:0; }
+table { border-collapse:collapse; }
+
+#right,#left{margin-top:-45px;}
+/*左边*/
+/*-----类别开始------*/
+#left{background:#EEE;width: 220px; float: left;}
+#left h1{padding-left:10px;font-size: 18px; color:#fff; background:#ff9231}
+#left ul li{padding-left:25px; border-bottom: 1px solid #CCC;font-size: 15px; line-height:25px;}
+/*-----类别结束------*/
+
+
+/*右边*/
+#right{ width:730px; float: right; }
+
+.list {margin-top:18px; width:100%; border-top:2px solid #dfc9b2; border-bottom:2px solid #dfc9b2; }
+.list th { background:#f7f4eb; color:#8a7152; }
+.list tr {height:26px;}
+.list tr:hover{background-color:#eee;}
+.list td {margin:0px; padding:5px; border-top:1px solid #dfc9b2; }
+.list td {border-left:1px solid #e1e1e1; text-align:center;}
+.list td.first { border-left:0px; }
+.list td.childClass { text-indent:4em; }
+.list td.w1 { width:150px; }		/*产品列表处的操作td*/
+.list td.w2 { width:40px; }
+.list td.w3 { width:200px; }
+.list td.w4 { width:100px; }
+.list td.w5 { width:80px; }
+.list td.thumb img { border:1px solid #dfdfe0; margin:0 10px; vertical-align:middle;}
+
+.list .lbl{text-align:right;} /*前台修改资料的左边标签*/
+.list .in{text-align:left;} /*使右边的input等往左边靠*/
+.list .txt{width:350px; border:2px solid #ccc; height:20px;}/*输入的信息*/
+
+
+
+/*分页栏*/
+.pageTop {float:right;}
+.pageTop li{display:inline;}
+

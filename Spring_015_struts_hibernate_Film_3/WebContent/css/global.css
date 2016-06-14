@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html, body, div, ul, ol, li,dl, dt, dd, tr, td, img, p{
+	padding:0px; margin:0px; font-size:12px; color:#666666;
+}
+
+li {list-style-type:none;}
+
+.clear_left {clear:left;}
+.clear_right{clear: right;}
+.float_left {/*左浮动*/
+	float:left;
+}
+.float_right {/*右浮动*/
+	float:right;
+}
+
+/*超链接标签*/
+a {
+	text-decoration:none;/*去除下划线*/
+	color:#666666;
+}
+a:hover {/*鼠标移上,显示下划线和橙色*/
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+img {border:0px;}/*取出图片超链接边框*/
+
+.menu_a a {
+	color:#FF6600;
+}
+.menu_a a:hover{color:#FFF; text-decoration:none; cursor:pointer;}
+
+/*文字居中*/
+.txt_center{ text-align:center;}
+
+h1{font-size:14px; margin:0px; padding:0px; height:22px; line-height:22px;}
+
+.display_show{display:block;}
+.display_hidden{display:none;}
+
+.txt_center{text-align:center}
+
+
+.padding_top_bottom5{padding-top:5px; padding-bottom:5px;}

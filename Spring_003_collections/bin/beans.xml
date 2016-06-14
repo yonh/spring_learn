@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+  <bean id="userService" class="service.UserService">
+  	
+  	<property name="lists">
+    <list>
+        <value>a</value>
+        <value>b</value>
+        <value>c</value>
+    </list>
+  </property>
+  <!-- results in a setSomeMap(java.util.Map) call -->
+  <property name="maps">
+    <map>
+        <entry>
+            <key><value>one</value></key>
+            <value>value1</value>
+        </entry>
+        <entry>
+            <key><value>two</value></key>
+            <value>value2</value>
+        </entry>
+    </map>
+  </property>
+  <!-- results in a setSomeSet(java.util.Set) call -->
+  <property name="sets">
+    <set>
+        <value>set1</value>
+		<value>set2</value>
+		<value>set3</value>
+		<value>set4</value>
+    </set>
+  </property>
+  </bean>
+
+
+</beans>

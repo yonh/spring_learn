@@ -1,0 +1,51 @@
+﻿html,body 
+{
+    font-size:12px;
+}
+#container {
+	width:959px;
+	margin:0px auto;
+} 
+
+ #contmain{width:738px;height:430px;border:1px solid #888;margin:-78px auto;}
+ /* 注册类容头部*/
+ h1{background-image:url(image/bg_login_t.gif);
+    height:43px;width:538px;
+    margin-top:-13px;
+    padding-top:10px;
+    padding-left:200px;
+     color:#414141;}
+     
+ .phone1{  background-image:url(image/mobile2.gif);
+                      width:738px;height:30px;margin-top:-16px;}
+ .phone1 ul li{float:left;list-style-type:none;padding-right:127px; 
+                      height:10px;line-height:10px;
+                      padding-top:10px;
+                      color:#999999;font-size:14px;}
+      
+ .phone1 img{height:30px;width:738px;padding-top:10px;}
+ 
+
+#head {
+	position:relative;
+}
+#head_top {
+	width:958px;/*留两个像素给边框*/
+	height:70px;
+	line-height:22px;
+}
+#head iframe
+{
+    height:300px; width:959px
+    }
+   
+#Foot {/*底部*/
+	width:959px;
+	margin-top:78px;
+}
+
+#Foot iframe
+{     margin-top:-8px;
+   
+    width:959px;
+    }

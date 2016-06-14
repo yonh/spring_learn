@@ -1,0 +1,41 @@
+@charset "utf-8";
+#right,#left{margin-top:-45px;}
+/*左边*/
+/*-----类别开始------*/
+#left{background:#EEE;width: 220px; float: left;}
+#left h1{padding-left:10px;font-size: 20px; color:#fff; background:#ff9231}
+#left ul li{padding-left:25px; border-bottom: 1px solid #CCC;font-size: 15px; line-height:25px;}
+/*-----类别结束------*/
+
+/*-----浏览历史开始----------*/
+#look{width:220px; height:200px; margin-top:5px; }
+#look dl{padding-left:5px; clear:both; margin-top:5px;}
+#look dl dt,dd{float:left;}
+#look dl dd{margin-left:5px; width:155px; height:45px; padding-top:5px;}
+#look img{width:48px;height:48px;border:1px solid #Ccc;}
+#look span{}
+/*-----浏览历史结束-------------*/
+
+/*右边*/
+#right{ width:730px; float: right;}
+#right dl{border-bottom: 1px solid #CCC;height:120px; width:730px;float:left; padding:5px;}
+#right dl dt,dd{float: left;}
+#right dl dt{width:120px; height:120px;border:1px solid #CCC; background:url(../images/default_thumbnail_goods_image.jpg);}
+#right dl dt img{width:120px; height:120px;}
+#right dl dd{width:600px; padding-left:5px; height:120px;}
+#right dl dd p{font-size: 13px;}
+#right dl dd h2{height:20px;padding-top:2px;margin:0px;padding:0px;}
+.contents{height:80px;}/*商品简介*/
+
+#right dl dd .bottom{font-size:14px;float:right;}
+#right dl dd .bottom .price{}/*原价*/
+#right dl dd .bottom .memberPrice{color:orange;font-size:18px;}/*会员价*/
+
+/*分页栏*/
+.pageTop {float:right;}
+.pageTop li{display:inline;}
+
+
+/*搜索表单*/
+#search{height:30px; padding-top:13px;background:#EEE;clear:both; border-top:2px solid #FF9639;border-left:1px solid #FF9639;border-right:1px solid #FF9639;}
+#search .txt{border:1px solid #CCC;}

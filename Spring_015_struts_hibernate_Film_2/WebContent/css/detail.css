@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*内容*/
+#detail{float:left;}
+/*内容上面*/
+#detail_up{width:980px; padding-top:10px; height:390px; margin: 5px 0px;}
+
+/*内容上面的左边图片*/
+#detail_up_left{width:300px; padding:0px 21px 0px 20px; height:390px; text-align: center; float:left;}
+#detail_up_left img{border:1px solid #999999;}
+#detail_up_left li img{width:50px; height:50px; margin-top:10px;float:left;margin-left: 20px;}
+
+/*内容右边*/
+#detail_up_right {float:left;}
+#detail_up_right h1{height:35px; line-height:35px;border-top:1px dashed #999;border-bottom:1px dashed #999; width:639px; font-size:30px;}
+#detail_up_right #detailInfo{border: 1px solid #CCC;width:639px;}
+#detail_up_right #detailInfo td{width:200px;font-size:15px; height:20px;line-height:20px;}
+#price{border:1px solid red; border-left:none;float:right; width:500px;height:200px;font-size:30px;}
+
+
+
+/*内容下面*/
+#detail_down{width:980px; height:400px; background-color:#0099FF;}

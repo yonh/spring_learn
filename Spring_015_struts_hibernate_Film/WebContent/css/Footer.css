@@ -1,0 +1,20 @@
+﻿/*footer start*/
+#footer .hr{border:none; border-bottom:2px solid #F0F0F0; border-top:2px solid #E0E0E0; padding:0px; margin:0px;height:0px; overflow:hidden;}
+.footer_server{margin-top:30px;}
+.footer_server_headdiv{margin-left:25px;width:884px; background-image:url(../images/footer_bg1.png); height:24px;}/*下面超链接的顶部图片*/
+
+.footer_server_list{margin-left:5px;float:left;margin-right:20px; width:137px; border-top:1px solid #DCDCDC;}
+.footer_server_list ul{margin-left:40px; margin-bottom:20px;}
+.footer_server_list li {list-style:square; margin-top:5px;}
+.end{margin-right:0px;margin-left:6px;}
+
+
+/*底部按钮*/
+#footer_ddbtn{background-image:url(../images/footer_btn.png); width:949px; margin:0px auto; margin-bottom:5px;}
+#footer_ddbtn .footer_img_btn{height:53px; width:236px; margin-left:1px; cursor:pointer; float:left;}
+
+/*底部超链接*/
+.footer_txt { margin-top:15px;}
+.footer_txt p{ text-align:center;margin-bottom:5px;}
+.footer_txt span{color:#666; margin: 1px 10px 0px 10px;}
+/*footer end*/
